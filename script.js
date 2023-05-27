@@ -15,8 +15,9 @@ function postMsg() {
 
 function appendList() {
     var myImages1 = new Array();
-    myImages1[0] = "Myimage1.png";
-    myImages1[1] = "Myimage2.png";
+    myImages1[0] = "assets/MyImage1.jpeg";
+    myImages1[1] = "assets/MyImage2.jpeg";
+    myImages1[2] = "assets/MyImage3.pngd";
 
     var rnd = Math.floor(Math.random() * myImages1.length);
 
